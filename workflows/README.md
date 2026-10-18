@@ -1,3 +1,14 @@
+---
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 4205c06d69a9166a22c69ec543032024_77bdffffcad611f18e0e52540064ee0f
+    ReservedCode1: Q6xXh95nsoivjqbjAaJ12R1X4Gn6EpMKxLezcoglyLzOofF72tlJKyTbtzsmi7/QQPBRVvhM0PgIuRupFtdfRudaKYi8riNTOjHN4PFS8XsLB1427HzYMjEZd5jcqxxhIKSpQ1EKB9mO/r9QY5TrF2Z7Uokp4CWNCOoFJDR4n5QBycUFJpILVG/dWQc=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 4205c06d69a9166a22c69ec543032024_77bdffffcad611f18e0e52540064ee0f
+    ReservedCode2: Q6xXh95nsoivjqbjAaJ12R1X4Gn6EpMKxLezcoglyLzOofF72tlJKyTbtzsmi7/QQPBRVvhM0PgIuRupFtdfRudaKYi8riNTOjHN4PFS8XsLB1427HzYMjEZd5jcqxxhIKSpQ1EKB9mO/r9QY5TrF2Z7Uokp4CWNCOoFJDR4n5QBycUFJpILVG/dWQc=
+---
+
 # workflows/ — 多 Agent 工作流
 
 ## 示例：代码开发流水线
@@ -22,3 +33,4 @@
 1. 每个 Agent 职责单一，独立定义在 `agents/`
 2. 模型按 `models/` 路由选择，故障自动降级
 3. 关键环节至少两个不同模型交叉验证，降低单一模型误差
+*（内容由AI生成，仅供参考）*

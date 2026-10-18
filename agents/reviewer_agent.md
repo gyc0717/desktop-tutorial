@@ -1,3 +1,14 @@
+---
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 4205c06d69a9166a22c69ec543032024_756c9373cad611f18533525400638852
+    ReservedCode1: LxDMsrbbO9JTZ1FdbBS4CjhW9MFy6ioJnxEAXf3mb4qIbGy7/vZeL9lUmE0gVt95oHRewDlo4MMaEUKMNDJWyewwvQ0DJ2GBeul+NUdWIUDt8TgOuf8t/uV9+2uG52pah/KO+L9NpyU7Jqy+nVWFIgBdxa2AZpxE/cwDMdPf6jZ2GxI+wOMYiDcqwlk=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 4205c06d69a9166a22c69ec543032024_756c9373cad611f18533525400638852
+    ReservedCode2: LxDMsrbbO9JTZ1FdbBS4CjhW9MFy6ioJnxEAXf3mb4qIbGy7/vZeL9lUmE0gVt95oHRewDlo4MMaEUKMNDJWyewwvQ0DJ2GBeul+NUdWIUDt8TgOuf8t/uV9+2uG52pah/KO+L9NpyU7Jqy+nVWFIgBdxa2AZpxE/cwDMdPf6jZ2GxI+wOMYiDcqwlk=
+---
+
 # Reviewer Agent — 代码审查智能体
 
 ## 角色
@@ -20,3 +31,4 @@
 ## 输入 / 输出
 - 输入：待审查代码、审查标准
 - 输出：结构化审查报告
+*（内容由AI生成，仅供参考）*

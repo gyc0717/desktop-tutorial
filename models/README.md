@@ -1,3 +1,14 @@
+---
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 4205c06d69a9166a22c69ec543032024_76fce41ccad611f18e0e52540064ee0f
+    ReservedCode1: SMBFoZ4k6pSzzyXkW+RzVgCXd7aMUWlYnNzOZ7B4SOVBtZE1i40ldfh0ucES4gGuWhTWQ3Vo6dPZ83tiAqkh9HAqzD4x5j27NjG7YNqT2kNcTxE35iFs3QR0PRkz17j6OhgVr76L2JE9Vgdzyz9VbU+ctCT8dvJnzbPugnsKkzfmjaQY6zOXnttXtNw=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 4205c06d69a9166a22c69ec543032024_76fce41ccad611f18e0e52540064ee0f
+    ReservedCode2: SMBFoZ4k6pSzzyXkW+RzVgCXd7aMUWlYnNzOZ7B4SOVBtZE1i40ldfh0ucES4gGuWhTWQ3Vo6dPZ83tiAqkh9HAqzD4x5j27NjG7YNqT2kNcTxE35iFs3QR0PRkz17j6OhgVr76L2JE9Vgdzyz9VbU+ctCT8dvJnzbPugnsKkzfmjaQY6zOXnttXtNw=
+---
+
 # models/ — 多模型接入
 
 本项目所有模型均走 **OpenAI 兼容协议**，因此豆包、DeepSeek、Kimi、通义、OpenAI 的接入代码完全统一，仅切换 base_url 与 api_key。
@@ -23,3 +34,4 @@
 ## 配置方式
 
 参考 `config.example.yaml`；在 Dify 中则在「模型供应商」页面添加各供应商并填入 API Key 即可，无需改代码。
+*（内容由AI生成，仅供参考）*
