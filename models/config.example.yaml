@@ -1,0 +1,32 @@
+# 多模型路由配置示例（复制为 config.yaml 使用）
+
+models:
+  coder:
+    provider: deepseek
+    model: deepseek-chat
+    base_url: ${DEEPSEEK_BASE_URL}
+    api_key: ${DEEPSEEK_API_KEY}
+
+  reviewer:
+    provider: doubao
+    model: doubao-pro-32k
+    base_url: ${DOUBAO_BASE_URL}
+    api_key: ${DOUBAO_API_KEY}
+
+  doc:
+    provider: kimi
+    model: moonshot-v1-32k
+    base_url: ${KIMI_BASE_URL}
+    api_key: ${KIMI_API_KEY}
+
+  fallback:            # 兜底模型：主模型不可用时自动降级
+    provider: qwen
+    model: qwen-plus
+    base_url: ${QWEN_BASE_URL}
+    api_key: ${QWEN_API_KEY}
+
+# 路由规则：按场景选择模型，失败自动走 fallback
+routing:
+  code_generation: coder
+  code_review: reviewer
+  document_processing: doc
